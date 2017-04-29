@@ -26,6 +26,9 @@ author: ECUST ACM TEAM
 markdown: kramdown  
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
+paginate: 5
+paginate_path: "page:num"
