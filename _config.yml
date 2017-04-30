@@ -25,6 +25,7 @@ author: ECUST ACM TEAM
 # Build settings
 markdown: kramdown  
 gems:
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
 exclude:
