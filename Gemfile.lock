@@ -5,6 +5,7 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     backports (3.8.0)
     colorator (1.1.0)
+    ffi (1.9.18)
     ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.4.3)
@@ -74,6 +75,7 @@ GEM
       tzinfo (>= 1.0.0)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
@@ -84,9 +86,6 @@ DEPENDENCIES
   jekyll-sitemap
   minima (~> 2.0)
   tzinfo-data
-
-RUBY VERSION
-   ruby 2.3.3p222
 
 BUNDLED WITH
    1.14.6
