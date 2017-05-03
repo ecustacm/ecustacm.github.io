@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-02T21:04:29+08:00</updated><id>http://localhost:4000/</id><title type="html">华东理工大学ACM队</title><subtitle></subtitle><author><name>ECUST ACM TEAM</name></author><entry><title type="html">第3次训练赛</title><link href="http://localhost:4000/contest/2017/04/29/contest-3.html" rel="alternate" type="text/html" title="第3次训练赛" /><published>2017-04-29T00:00:00+08:00</published><updated>2017-04-29T00:00:00+08:00</updated><id>http://localhost:4000/contest/2017/04/29/contest-3</id><content type="html" xml:base="http://localhost:4000/contest/2017/04/29/contest-3.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-03T10:49:24+08:00</updated><id>http://localhost:4000/</id><title type="html">华东理工大学ACM队</title><subtitle></subtitle><author><name>ECUST ACM TEAM</name></author><entry><title type="html">2017 暑期训练事项</title><link href="http://localhost:4000/rules/2017/05/03/summer.html" rel="alternate" type="text/html" title="2017 暑期训练事项" /><published>2017-05-03T00:00:00+08:00</published><updated>2017-05-03T00:00:00+08:00</updated><id>http://localhost:4000/rules/2017/05/03/summer</id><content type="html" xml:base="http://localhost:4000/rules/2017/05/03/summer.html">&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;竞赛队的训练：7月10日开始，在徐汇校区。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;离开学校时，需要向老师请假，老师同意才能离开，并交还钥匙。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;暑假训练目的是：&lt;/p&gt;
+
+    &lt;p&gt;（1）提高个人和团队水平。大量编程和学习新知识。&lt;/p&gt;
+
+    &lt;p&gt;（2）增加见闻。请毕业队员讲座，请专业老师讲座。&lt;/p&gt;
+
+    &lt;p&gt;（3）选拔秋季参赛队伍。预计选拔9个参赛队伍，共27人。其中14级,15级4队，16级5队。大量参赛资源用于锻炼16级新人。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;选拔参加秋季比赛的新队员。个人赛。7月底。根据个人赛重新组队，选出新队员。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;老队员训练。做杭电联合赛。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;每天签到。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;注意人身安全和财产安全，不得外出饮酒、下河游泳。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;训练期间，不能打游戏、看无关视频。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;注意用电安全，不能烧水。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;晚上不能住在机房。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;每天晚上，姚远、姚迟亮队长负责关窗、关电闸、关门。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;下学期根据网络赛成绩安排参赛赛区&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;备注 :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;老队员指代表学校参加过ICPC的队员，新队员指未参加过ICPC的队员。&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>ECUST ACM TEAM</name></author><summary type="html">竞赛队的训练：7月10日开始，在徐汇校区。</summary></entry><entry><title type="html">第3次训练赛</title><link href="http://localhost:4000/contest/2017/04/29/contest-3.html" rel="alternate" type="text/html" title="第3次训练赛" /><published>2017-04-29T00:00:00+08:00</published><updated>2017-04-29T00:00:00+08:00</updated><id>http://localhost:4000/contest/2017/04/29/contest-3</id><content type="html" xml:base="http://localhost:4000/contest/2017/04/29/contest-3.html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#概述&quot; id=&quot;markdown-toc-概述&quot;&gt;概述&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#参赛人员&quot; id=&quot;markdown-toc-参赛人员&quot;&gt;参赛人员&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#code&quot; id=&quot;markdown-toc-code&quot;&gt;Code&lt;/a&gt;    &lt;ul&gt;
