@@ -1,44 +1,285 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
----
-  <ul class="post-list">  
-    {% for post in paginator.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ECUST ACM 做题天梯</h1>
+    <!-- <a href="/register">注册</a> -->
+    <table id="myTable2" border="8">
+        <tbody><tr>
+            <th onclick="sortTable(0)">姓名</th>
+            <th onclick="sortTable(1)">用户名</th>
+            <th onclick="sortTable(2)">专业</th>
+            <th onclick="sortTable(3)">年级</th>
+            <th onclick="sortTable(4)">24小时</th>
+            <th onclick="sortTable(5)">7天</th>
+            <th onclick="sortTable(6)">30天</th>
+            <th onclick="sortTable(7)">总AC</th>
+            <th onclick="sortTable(8)">总尝试</th>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/yyecust">姚远</a></td>
+            <td>yyecust</td>
+            <td>信工</td>
+            <td>2015</td>
+            <td>1</td>
+            <td>1</td>
+            <td>22</td>
+            <td>135</td>
+            <td>157</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/jilaoyihao">王亦凡</a></td>
+            <td>jilaoyihao</td>
+            <td>信工</td>
+            <td>2015</td>
+            <td>0</td>
+            <td>0</td>
+            <td>16</td>
+            <td>612</td>
+            <td>649</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/wangzechen2015">王泽宸</a></td>
+            <td>wangzechen2015</td>
+            <td>数学</td>
+            <td>2015</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>214</td>
+            <td>234</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/RongMa">马榕</a></td>
+            <td>RongMa</td>
+            <td>信工</td>
+            <td>2015</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>105</td>
+            <td>126</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/shyf1301">史亿帆</a></td>
+            <td>shyf1301</td>
+            <td>电自</td>
+            <td>2015</td>
+            <td>0</td>
+            <td>4</td>
+            <td>55</td>
+            <td>341</td>
+            <td>370</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/yzyzycyh1">杨镇源</a></td>
+            <td>yzyzycyh1</td>
+            <td>信工</td>
+            <td>2015</td>
+            <td>0</td>
+            <td>1</td>
+            <td>10</td>
+            <td>385</td>
+            <td>414</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/zhao20130673">赵李洋</a></td>
+            <td>zhao20130673</td>
+            <td>软件</td>
+            <td>2016</td>
+            <td>0</td>
+            <td>0</td>
+            <td>6</td>
+            <td>149</td>
+            <td>159</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/sky980114">李霄</a></td>
+            <td>sky980114</td>
+            <td>软件</td>
+            <td>2016</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>258</td>
+            <td>266</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/Desico">姚迟亮</a></td>
+            <td>Desico</td>
+            <td>软件</td>
+            <td>2016</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>159</td>
+            <td>164</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/jamesszg">施智罡</a></td>
+            <td>jamesszg</td>
+            <td>计算机</td>
+            <td>2016</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>138</td>
+            <td>144</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/holyhbsun">孙鸿彬</a></td>
+            <td>holyhbsun</td>
+            <td>软件</td>
+            <td>2016</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>139</td>
+            <td>142</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/Yvetteweiss">王寅宇</a></td>
+            <td>Yvetteweiss</td>
+            <td>信工</td>
+            <td>2016</td>
+            <td>0</td>
+            <td>10</td>
+            <td>24</td>
+            <td>310</td>
+            <td>327</td>
+        </tr>
+        
+        <tr>
+            <td> <a href="https://vjudge.net/user/fzl_194">傅志凌</a></td>
+            <td>fzl_194</td>
+            <td>软件</td>
+            <td>2016</td>
+            <td>0</td>
+            <td>0</td>
+            <td>126</td>
+            <td>436</td>
+            <td>441</td>
+        </tr>
+   
+    </tbody></table>
+    <h1>网站说明
+        </h1>
+        <ol>
+            <li> 本网站通过爬取 https://vjudge.net/user/{{your_user_name}} 来获取你在vjudge上的做题情况</li>   
+            <li>请发邮件到 yaoyuanyy@outlook.com 并注明你的姓名，vjudge用户名，专业和年级，我将把你添加的信息添加到数据库中</li>  
+            <li> 点击表头可以排序哦</li>
+        </ol>
+          <h1>  Q&A</h1> 
+              <ul>
+                    <li>Q:多久更新数据？
+                    <li>A:看我心情
+                    <li>Q:为什么不做成全自动的？
+                    <li>A:没经费啊,便宜的服务器(腾讯云1块钱学生服务器) 带宽太小，爬到一半就error了
+                    <li>Q:为什么不做得好看点？
+                    <li>A:懒
+                    <li>Q:现在的解决方案是？
+                    <li>A:本机爬，生成HTML，然后挂到github page上面
+                    <li>Q:现在的花费是？
+                    <li>A: 0元 (如果不算之前买的域名的话)
+                    <li>Q:不喜欢用vjudge怎么办?
+                    <li>A:我就不喜欢，所以vjudge做题数超低，你嘛自己看着
+                    <li>Q:这个网站有什么用?
+                    <li>A: 当然是发现大牛了，题做的越多越强，可以抱抱大腿哦。顺便看看谁是挂机队员，口头AC.
+                    <li>Q: 爬虫怎么写?</li>
+                    <li>A: 好好刷题，以后想学很简单。核心的Python代码加起来不到150行</li>
+                    <li>Q: 这个网站未来有什么打算?</li>
+                    <li>A: 首先是加个时间戳，当时忘记了</li>
+                    </ul>
+            <script>
+                
+            function sortTable(n) {
+                console.log('sb');
+              var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+              table = document.getElementById("myTable2");
+              switching = true;
+              // Set the sorting direction to ascending:
+              dir = "asc"; 
+              /* Make a loop that will continue until
+              no switching has been done: */
+              while (switching) {
+                // Start by saying: no switching is done:
+                switching = false;
+                rows = table.getElementsByTagName("TR");
+                /* Loop through all table rows (except the
+                first, which contains table headers): */
+                for (i = 1; i < (rows.length - 1); i++) {
+                  // Start by saying there should be no switching:
+                  shouldSwitch = false;
+                  /* Get the two elements you want to compare,
+                  one from current row and one from the next: */
+                  x = rows[i].getElementsByTagName("TD")[n];
+                  y = rows[i + 1].getElementsByTagName("TD")[n];
+                  /* Check if the two rows should switch place,
+                  based on the direction, asc or desc: */
+                  if (dir == "asc") {
+                    if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                      // If so, mark as a switch and break the loop:
+                      shouldSwitch= true;
+                      break;
+                    }
+                  } else if (dir == "desc") {
+                    if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                      // If so, mark as a switch and break the loop:
+                      shouldSwitch= true;
+                      break;
+                    }
+                  }
+                }
+                if (shouldSwitch) {
+                  /* If a switch has been marked, make the switch
+                  and mark that a switch has been done: */
+                  rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                  switching = true;
+                  // Each time a switch is done, increase this count by 1:
+                  switchcount ++; 
+                } else {
+                  /* If no switching has been done AND the direction is "asc",
+                  set the direction to "desc" and run the while loop again. */
+                  if (switchcount == 0 && dir == "asc") {
+                    dir = "desc";
+                    switching = true;
+                  }
+                }
+              }
+            }
+            </script>
+            <style>
+                table
+{
+border-collapse: collapse;
+border-spacing: 0px;
+}
+table, th, td
+{
+padding: 5px;
+border: 1px solid black;
+}
+th
+{
+    cursor:pointer;
+}
+            </style>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-
+</body><div></div></html>
